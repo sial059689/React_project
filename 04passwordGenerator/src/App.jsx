@@ -2,19 +2,34 @@ import { useCallback, useState } from "react";
 import "./App.css";
 
 function App() {
-  const [length, setLength] = useState(8)
-  const [numberAllowed, setNumberAllowed] = useState(false)
-  const [charAllowed, setCharAllowed] = useState(false)
-  const [password, setPassword] = useState("")
+  
+const [length, setLength] = useState(8)
+const [numberAllow, setNumberAllow] = useState(false)
+const [charAllow, setCharAllow] = useState(false)
+const [password, setPassword] =useState("")
 
-  const passwordGenerator = useCallback(() => {
-    let pass = ""
-    let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-if (numberAllowed) str =+ "0123456789"
-if (charAllowed) str =+ "\!@#$%&*[]{}<>?/"
-let char = ""
+const passGenerator = useCallback(()=>{
 
-  }, [length, numberAllowed, charAllowed, setPassword])
+let pass = ""
+let str = "ABCDEFGHIJKLMNOPQRSTUVXYZabcdefghijklmnopqrstuvxyz"
+
+if (numberAllow) str += "0123456789"
+if (charAllow) str += "{[(/\?|@#$)]}"
+
+for (let i = 1; i < array.length; i++) {
+  let char = math.floor(math.random() * str.length + 1)
+  
+  pass = str.charAt(char)
+}
+
+setPassword(pass)
+console.log(setPassword);
+
+
+}
+
+,[length, numberAllow, charAllow])
+
   return (
     <div>
       <h1 className="text-white text-center text-4xl font-serif mt-4">Password Generator</h1>
