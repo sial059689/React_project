@@ -8,9 +8,9 @@ let [counter, setCounter] = useState(0)
 // let [removeValue, setRemoveValue] = useState(0)
 
 let addValue = () =>{
-  setCounter(counter+1)
-  if (counter === 10)
-      alert("The limit of this Counter is 10")
+  if (counter !== 10)
+    setCounter(counter+1)
+  alert("The limit of this Counter is 10")
   
 }
 
@@ -28,11 +28,11 @@ let removeValue = () =>{
         <button 
         onClick={addValue}
         className='mt-14 rounded-full px-6 py-4 text-4xl 
-        font-serif bg-blue-600 hover: cursor-default mr-12'>Add Value</button>
+        font-serif bg-green-600 hover: cursor-default mr-12'>Add Value</button>
         <button 
         onClick={removeValue}
         className='mt-14 mr-10 rounded-full px-6 py-4 text-4xl 
-        font-serif bg-blue-600 hover: cursor-default '>Remove Value</button>
+        font-serif bg-red-600 hover: cursor-default '>Remove Value</button>
 
 
       </div>
