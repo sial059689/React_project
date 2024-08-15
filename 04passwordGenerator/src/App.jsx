@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import "./App.css";
 
 function App() {
@@ -7,6 +7,8 @@ function App() {
   const [numberAllow, setNumberAllow] = useState(false)
   const [charAllow, setCharAllow] = useState(false)
   const [password, setPassword] = useState("")
+
+  const passwordRef = useRef(null)
 
   const passGenerator = useCallback(() => {
 
@@ -26,10 +28,18 @@ function App() {
     setPassword(pass)
 
   }, [length, numberAllow, charAllow])
+  
+  const  onClickPasswordClipboard = useCallback(() => {
+    passwordRef.current?.select()
+    passwordRef.current?.setSelectionRange(0, 32)
+    window.navigator.clipboard.writeText(password)
+  }, [password])
+ 
+
 
   {/* use Effect hook working starts here */ }
 
-  useEffect(() => {passGenerator()}, [length, numberAllow, charAllow, passGenerator])
+  useEffect(() => { passGenerator() }, [length, numberAllow, charAllow, passGenerator])
 
   return (
     < div >
@@ -50,9 +60,12 @@ function App() {
             className="outline-none w-full py-1 px-3 rounded-none"
             placeholder="Password"
             readOnly
+            ref={passwordRef}
 
           />
-          <button className="outline-none bg-blue-500 text-white px-3 py-0.5 shrink-0">Copy</button>
+          <button
+          onClick={onClickPasswordClipboard}
+          className="outline-none bg-blue-500 text-white text-lg px-3 py-0.5 shrink-0 hover:bg-sky-700">Copy</button>
 
         </div>
         <div className="flex text-sm gap-x-2">
