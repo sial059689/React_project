@@ -37,11 +37,11 @@ function App() {
         <button
           onClick={addValue}
           className='mt-14 rounded-full px-6 py-4 text-4xl 
-        font-serif bg-green-600 hover: cursor-default mr-12'>Add Value</button>
+        font-serif bg-green-600  cursor-default mr-12 hover:bg-green-700'>Add Value</button>
         <button
           onClick={removeValue}
           className='mt-14 mr-10 rounded-full px-6 py-4 text-4xl 
-        font-serif bg-red-600 hover: cursor-default '>Remove Value</button>
+        font-serif bg-red-600  cursor-default hover:bg-red-700'>Remove Value</button>
 
 
       </div>
