@@ -2,7 +2,6 @@ import React from 'react'
 import './App.css'
 import UserContextProvider from './Context/UserContextProvider'
 
-
 function App() {
   
 
