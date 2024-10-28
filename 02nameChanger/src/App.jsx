@@ -1,22 +1,34 @@
-import React, { useState } from 'react'
+import React, { useState2w } from 'react'
 
 const App = () => {
 
+  const submitHandler = (e) => {
+    e.preventDefault()
+    console.log('submitted')
 
-  const [a, setA] = useState('Hello')
-
-
-  const change = () => {
-    setA('Rizwan')
   }
 
   return (
-    <div className="w-full h-screen bg-green-500 p-6 mx-auto">
-      <h1 className=" text-2xl">{a}</h1>
 
-      <button className=" bg-slate-400 text-white rounded-lg w-40 py-2 text-lg"
-        onClick={change}
-      >Change Name</button>
+    <div>
+
+      <form onSubmit={(e) => {
+          submitHandler(e)
+        }}
+      >
+
+        <input className='rounded bg-green-400 mx-3 my-3 px-2 text-white py-1'
+          type="text" name="" id="" placeholder='First Name' />
+
+        <input className='rounded bg-green-400 mx-3 my-3 px-2 text-white py-1'
+          type="text" name="" id="" placeholder='First Name' />
+
+        <button
+          className='rounded bg-blue-600 text-white px-2 py-1'>
+          Submit
+        </button>
+
+      </form>
 
     </div>
   )
