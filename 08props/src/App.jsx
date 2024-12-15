@@ -1,10 +1,8 @@
 import React from 'react'
-import Card from './Components/Card'
+import Card from "./Components/Card"
 const App = () => {
 
-
-
-  const user = [
+  const users = [
     {
       "name": "Alice Johnson",
       "age": 28,
@@ -42,16 +40,11 @@ const App = () => {
     }
   ]
 
-
-
   return (
     <div>
-      
-
-      {user.map(function (elem, idx) {
-        return <Card key={idx} Name={elem.name}/>
-      })}
-
+      <div>
+        {users.map(function({}))}
+      </div>
     </div>
   )
 }
