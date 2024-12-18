@@ -50,7 +50,7 @@ const App = () => {
             prof={elem.profession} pic={elem.picture} />
           })}
 
-          console.log("elem.pic")
+          
 
       </div>
     </div>
