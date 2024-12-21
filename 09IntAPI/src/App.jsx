@@ -13,8 +13,9 @@ function App() {
 
   return (
     <div className='p-10'>
+      <h1 className='font-extrabold text-4xl text-green-500 text-center'>Fetching the Data through 'API'</h1>
       <button onClick={getData} className='bg-teal-300 text-white 
-      font-semibold text-2xl rounded  p-2 active:m-0.5'>Get Data</button>
+      font-semibold text-2xl rounded  p-2 active:m-0.5 place-content-center'>Get Data</button>
 
       <div className='bg-slate-950 text-white  px-5 py-4  mt-4 rounded'>
         {data.map(function (elem, idx) {
