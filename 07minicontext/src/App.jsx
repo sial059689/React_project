@@ -1,14 +1,22 @@
-import React from 'react'
-import './App.css'
-import UserContextProvider from './Context/UserContextProvider'
+import React, { useContext } from 'react'
+import Header from './context/Header'
+import Section from './Context/Section'
+import Footer from './Context/Footer'
+import { DataContext } from './context/UserContext'
 
-function App() {
-  
+
+
+const App = () => {
+
+const data = useContext(DataContext)
 
   return (
-    <UserContext.Provider>
-      <h1>React with Context API</h1>
-    </UserContext.Provider>
+    <div className='bg-green-500 w-full h-screen text-white text-center p-36 text-6xl'>
+      <h1>This is app and i {data}</h1>
+      <Header />
+      <Section />
+      <Footer />
+    </div>
   )
 }
 
