@@ -1,16 +1,20 @@
 import React from 'react'
-import Page1 from './pages/Page1'
-import Header from './components/Header'
-import NavigationBar from './components/Navbar'
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Page1 />
+    <>
 
+      <Routes>
 
-    </div>
+        <Route path='/' element={<Home />} />
+
+      </Routes>
+
+    </>
+
   )
 }
 
