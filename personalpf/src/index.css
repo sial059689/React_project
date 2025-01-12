@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: font1;
+    src: url(./fonts//1.woff2);
+}
+@font-face {
+    font-family: font2;
+    src: url(./fonts/file.woff2);
+}
+@font-face {
+    font-family: font3;
+    src: url(./fonts//madefor-text.var.original.woff2);
+}

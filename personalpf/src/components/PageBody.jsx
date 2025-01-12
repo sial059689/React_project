@@ -4,7 +4,7 @@ const TiltTex = () => {
   return (
     <div>
 
-      <h1 className='mt-40 pl-16 text-4xl '><span className='text-8xl text-gray-700 font-semibold'>Rizwan Ali</span><i className="ri-hand text-6xl text-yellow-400"></i> </h1>
+      <h1 className='mt-24 pl-16 text-4xl '><span className='text-8xl text-gray-700 font-semibold'>Rizwan Ali</span><i className="ri-hand text-6xl text-yellow-400"></i> </h1>
 
 
       <h1 className='text-2xl pt-0 pl-36 text-gray-700'> Fron End Web Developer</h1>
