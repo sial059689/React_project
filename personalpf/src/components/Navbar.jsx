@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import '../index.css' 
 
 const Navbar = () => {
     return (
@@ -9,10 +10,10 @@ const Navbar = () => {
 
             <div className='flex space-x-10'>
 
-                <Link to='/'>Home</Link>
-                <Link to='/about'>About</Link>
-                <Link to='/'>Portfolio</Link>
-                <Link to='/'>Contact</Link>
+                <Link class='navMenu' to='/'>Home</Link>
+                <Link class='navMenu' to='/about'>About</Link>
+                <Link class='navMenu' to='/portfolio'>Portfolio</Link>
+                <Link class='navMenu' to='/contact'>Contact</Link>
 
                 <div>
                     <Link className='pr-8 rounded-full border-2 border-red-400 px-6  py-1 hover:bg-red-100 ' to='/'>Download CV</Link>
