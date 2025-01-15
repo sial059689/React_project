@@ -5,12 +5,14 @@ import Navbar from '../components/Navbar'
 const Portfolio = () => {
     return (
         <>
+            <div className='bg-gray-200 w-full h-full'>
 
-            <Navbar />
+                <Navbar />
+                <h1 className='flex justify-center'>This is Portfolio page</h1>
 
-            <h1 className='flex justify-center'>This is Portfolio page</h1>
+                <PageBottom />
 
-            <PageBottom />
+            </div>
         </>
     )
 }

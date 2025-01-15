@@ -2,7 +2,7 @@ import React from 'react'
 
 const PageBotton = () => {
   return (
-    <div className='absolute items-end p-12 flex justify-between w-full bottom-0 left-0'>
+    <div className=' bg-gray-200absolute items-end p-12 flex justify-between w-full bottom-0 left-0'>
       <div>
 
         <h3 className='text-2xl text-gray-700'>Follow me:
