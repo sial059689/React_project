@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'
 import '../index.css' 
 
 const Navbar = () => {
+
+
+    const downloadCv = 'http://localhost:5173/Rizwan_Ali_FEWD.pdf'
     return (
         <div className='container mx-auto flex items-center justify-between px-8 py-8'>
 
@@ -16,7 +19,7 @@ const Navbar = () => {
                 <Link class='navMenu' to='/contact'>Contact</Link>
 
                 <div>
-                    <Link className='pr-8 rounded-full border-2 border-red-400 px-6  py-1 hover:bg-red-100 ' to='/'>Download CV</Link>
+                    <Link onClick={()=>{downloadCv}} className='pr-8 rounded-full border-2 border-red-400 px-6  py-1 hover:text-sm ' to='/'>Download CV</Link>
 
                 </div>
 
