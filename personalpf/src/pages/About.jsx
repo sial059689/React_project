@@ -6,7 +6,7 @@ import img from '../images/2.png'
 
 const About = () => {
   return (
-    <div className=' w-full h-full'>
+    <div className=' w-full h-full bg-gray-400'>
 
       <Navbar />
       <div className='mt-6'>
