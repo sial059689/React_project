@@ -8,7 +8,7 @@ import Navbar from '../components/Navbar'
 
 const Home = () => {
     return (
-        <div className=''>
+        <div className='bg-gray-500'>
 
             <Navbar />
 

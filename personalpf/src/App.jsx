@@ -2,8 +2,8 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
-import Portfolio from './components/Portfolio'
-import Contact from './components/Contact'
+import Portfolio from './pages/Portfolio'
+import Contact from './pages/Contact'
 
 
 const App = () => {

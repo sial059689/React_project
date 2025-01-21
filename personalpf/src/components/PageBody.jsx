@@ -5,15 +5,18 @@ const TiltTex = () => {
   return (
     <div className='flex'>
 
-      <div className='w-6/12 h-auto bg-green-400'>
+      <div className='w-6/12 h-auto'>
 
-        <h1 className='mt-12 pl-16 text-4xl '>
-          <span className='text-8xl  font-semibold'>Rizwan Ali</span>
-          <i className="ri-hand text-6xl text-yellow-400"></i> </h1>
+        <h1 className='mt-10 pl-16 text-4xl '>
+          <span className='text-8xl  font-semibold font-[robboto]'>RIZWAN ALI</span>
+          <i className="ri-hand text-8xl text-gray-300"></i> </h1>
 
-        <h1 className='text-2xl pt-0 pl-36 text-gray-700'> Front End Web Developer</h1>
+        <h1 className='text-2xl pt-0 pl-36 text-gray-300'> Front End Web Developer</h1>
 
-        <p className='w-96 pt-8 pl-24 font-serif text-gray-700'>I'm creative developer based in Lahore, and i am very passionate and dedicate to my work.</p>
+        <p className='w-4/5 text-lg pt-8 pl-16 font-serif text-gray-300 text-justify'>I am a front end web developer with good knowledge of front-end techniques,
+          specializes in creating and maintaining websites, combining technical expertise with creative
+          problem-solving to deliver user-friendly, functional, and visually appealing online experiences.
+          I've skilled in programming languages like HTML, CSS, JavaScript, and often frameworks such as React.</p>
 
 
       </div>
