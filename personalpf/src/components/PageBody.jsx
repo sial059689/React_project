@@ -7,9 +7,13 @@ const TiltTex = () => {
 
       <div className='w-6/12 '>
 
-        <h1 className='mt-12 0 pl-16 text-4xl '>
-          <span className='text-8xl  font-semibold font-[robboto]'>RIZWAN ALI</span>
-          <i className="ri-hand text-8xl text-gray-300"></i> </h1>
+        <h1 className='mt-12 0 pl-16 text-4xl flex'>
+          <span className='text-8xl font-semibold font-[robboto]'>RIZWAN ALI</span>
+
+          <div className='pt-4'>
+            <i className="ri-hand text-6xl text-yellow-300"></i>
+          </div>
+        </h1>
 
         <h1 className='text-2xl pt-0 pl-36 text-gray-300'> Front End Web Developer</h1>
 

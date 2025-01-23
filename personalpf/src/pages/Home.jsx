@@ -13,13 +13,15 @@ const Home = () => {
             <Navbar />
 
 
-            <div className=' '>
-                <img className='h-24 text-2xl  pl-12 py-6' src="https://static.wixstatic.com/media/f1c650_35a00b1fe6ce403eb237970ec8d34f79~mv2.png/v1/fill/w_99,h_99,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Frame%2053.png" alt="" />
-                
+            <div className='text-8xl ml-2'>
+                <i className="ri-sparkling-2-fill text-2xl text-gray-200"></i>
+                <i className="ri-sparkling-line text-2xl text-gray-200"></i>
+                <i className="ri-sparkling-line text-2xl text-gray-200"></i>
+                <i className="ri-sparkling-2-fill text-2xl text-gray-200"></i>
             </div>
-            
-    
-            
+
+
+
             <PageBody />
             <PageBottom />
 

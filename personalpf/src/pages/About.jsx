@@ -87,18 +87,18 @@ const About = () => {
 
           <h1 className='font-[robboto] font-semibold text-gray-300 text-4xl tracking-widest pl-32 pt-14'>PERSONAL INFO'S</h1>
 
-          {/* persona info name section */}
-          <div className='flex pt-8'>
+          {/* personal info name section */}
+          <div className='flex pt-8 text-2xl'>
 
             <div className='w-1/2'>
-              <h1 className=' text-gray-200 text-lg pl-5 pt-6'>
+              <h1 className=' text-gray-200 text-xl pl-5 pt-6'>
                 First Name: <span className='text-white font-[robboto] tracking-wider'>Rizwan</span>
               </h1>
             </div>
 
             <div className='w-1/2 '>
 
-              <h1 className=' text-gray-200 text-lg pl-10 pt-6 '>
+              <h1 className=' text-gray-200 text-xl pl-10 pt-6 '>
                 Last Name: <span className='text-white font-[robboto]'>Ali</span>
               </h1>
             </div>
@@ -107,13 +107,13 @@ const About = () => {
           {/* persona info age section */}
           <div className='flex'>
             <div className='w-1/2 '>
-              <h1 className=' text-gray-200 text-lg pl-5 pt-3'>
+              <h1 className=' text-gray-200 text-xl pl-5 pt-3'>
                 Age: <span className='text-white font-[robboto]'>29 years</span>
               </h1>
             </div>
 
             <div className='w-1/2 '>
-              <h1 className=' text-gray-200 text-lg pl-10 pt-3  '>
+              <h1 className=' text-gray-200 text-xl pl-10 pt-3  '>
                 Nationality: <span className='text-white font-[robboto]'>Pakistani</span>
               </h1>
             </div>
@@ -122,13 +122,13 @@ const About = () => {
           {/* personal info address section */}
           <div className='flex'>
             <div className='w-1/2 '>
-              <h1 className=' text-gray-200 text-lg pl-5 pt-3'>
+              <h1 className=' text-gray-200 text-xl pl-5 pt-3'>
                 Address: <span className='text-white font-[robboto]'>Lahore</span>
               </h1>
             </div>
 
             <div className='w-1/2 '>
-              <h1 className=' text-gray-200 text-lg pl-10 pt-3  '>
+              <h1 className=' text-gray-200 text-xl pl-10 pt-3  '>
                 phone: <span className='text-white font-[robboto]'>+92 3084543596</span>
               </h1>
             </div>
@@ -136,21 +136,21 @@ const About = () => {
           {/* persona info email section */}
           <div className='flex'>
             <div className='w-1/2 '>
-              <h1 className=' text-gray-200 text-lg pl-5 pt-3'>
+              <h1 className=' text-gray-200 text-xl pl-5 pt-3'>
                 Email: <span className='text-white font-[robboto]'>sial059689@gmail.com</span>
               </h1>
             </div>
 
             <div className='w-1/2 '>
-              <h1 className=' text-gray-200 text-lg pl-10 pt-3  '>
+              <h1 className=' text-gray-200 text-xl pl-10 pt-3  '>
                 LinkedIn: <span className='text-white font-[robboto]'>Rizwan Ali</span>
               </h1>
             </div>
           </div>
 
           {/* resume button */}
-          <div className='flex mt-8 ml-6 w-72 rounded-full border border-white font-[robboto] '>
-            <button type="submit" className=' hover:text-orange-400 tracking-normal text-white font-semibold px-10 py-4 rounded-full hover:bg-slate-100'>
+          <div className='flex mt-8 ml-6 w-72 rounded-full border border-white font-[robboto]'>
+            <button type="submit" className=' tracking-normal text-white text-xl font-semibold px-8 py-4 rounded-full'>
               DOWNLOAD CV
             </button>
             <img src={downloadImg} alt="" className='h-12 w-12 rounded-full pt-2' />
