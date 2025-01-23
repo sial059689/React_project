@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar'
 const Portfolio = () => {
     return (
         <>
-            <div className=' w-full h-screen bg-gray-400'>
+            <div className=' w-full h-screen bg-gray-500'>
 
                 <Navbar />
                 <h1 className='flex justify-center'>This is Portfolio page</h1>

@@ -3,11 +3,11 @@ import imgi from '../images/2.png'
 
 const TiltTex = () => {
   return (
-    <div className='flex'>
+    <div className='flex h-full'>
 
-      <div className='w-6/12 h-auto'>
+      <div className='w-6/12 '>
 
-        <h1 className='mt-10 pl-16 text-4xl '>
+        <h1 className='mt-12 0 pl-16 text-4xl '>
           <span className='text-8xl  font-semibold font-[robboto]'>RIZWAN ALI</span>
           <i className="ri-hand text-8xl text-gray-300"></i> </h1>
 
@@ -21,9 +21,9 @@ const TiltTex = () => {
 
       </div>
 
-      <div className='w-6/12 h-auto bg-red-400 justify-end'>
+      <div className='w-6/12 bg-red-400 justify-end'>
 
-        <img src={imgi} alt="" className='h-[32vw] w-[60vw]' />
+        <img src={imgi} alt="" className='' />
 
       </div>
 

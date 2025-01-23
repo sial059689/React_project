@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PageBotton = () => {
+const PageBottom = () => {
   return (
     <div className='bg-black absolute items-end p-4 flex justify-between w-full bottom-0 left-0'>
       <div>
@@ -26,4 +26,4 @@ const PageBotton = () => {
   )
 }
 
-export default PageBotton
+export default PageBottom

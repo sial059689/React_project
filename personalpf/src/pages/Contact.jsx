@@ -12,21 +12,21 @@ const Contact = () => {
 
 
   return (
-    <div className='bg-gray-500'>
+    <div className='bg-gray-500 h-screen'>
 
       <Navbar />
 
-      <div className='mt-2 w-full p-6 bg-gray-500 rounded-lg shadow-md'>
+      <div className='mt-2 w-full p-6 bg-gray-500 rounded-lg'>
 
         {/* page heading */}
         <h2 className='text-6xl text-center text-gray-200 font-bold font-[robboto] '>GET IN TOUCH</h2>
 
         <div className='flex mx-auto'>
           {/* left section  */}
-          <div className='w-1/3 mr-6 items-center'>
+          <div className='w-1/3 mt-6 mr-6 items-center'>
 
             <div>
-              <h1 className='text-gray-400 text-4xl font-[robboto] text-center pt-6'>DON'T BE SHY!</h1>
+              <h1 className='text-gray-300 text-4xl font-[robboto] text-center pt-6'>DON'T BE SHY!</h1>
               <p className='text-white px-12 pt-4 text-justify'>Feel free to get in touch with me. I am always open to discussing new projects,
                 creative ideas or opportunities to be part of your visions.</p>
             </div>
