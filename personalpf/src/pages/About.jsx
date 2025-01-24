@@ -7,6 +7,10 @@ import downloadImg from '../images/download.png'
 import html80 from '../images/html80.png'
 import css704 from '../images/css704.png'
 import js45 from '../images/js45.png'
+import wordpress from '../images/wordpress.png'
+import jquery from '../images/jquery.png'
+import react from '../images/react.png'
+import tailwind from '../images/tailwind.png'
 
 const About = () => {
   return (
@@ -57,22 +61,22 @@ const About = () => {
             <div className='flex place-content-center gap-20 pt-10 '>
 
               <div className=' '>
-                <img src={html80} alt="" className='' />
+                <img src={wordpress} alt="" className='' />
                 <h4 className='text-center pt-4 text-white text-xl font-bold'>WORDPRESS</h4>
               </div>
 
               <div className=''>
-                <img src={css704} alt="" className='' />
+                <img src={jquery} alt="" className='' />
                 <h4 className='text-center pt-4 text-white text-xl font-bold'>JQUERY</h4>
               </div>
 
               <div className=''>
-                <img src={js45} alt="" className='' />
+                <img src={react} alt="" className='' />
                 <h4 className='text-center pt-4 text-white text-xl font-bold'>REACT JS</h4>
               </div>
 
               <div className=''>
-                <img src={js45} alt="" className='' />
+                <img src={tailwind} alt="" className='' />
                 <h4 className='text-center pt-4 text-white text-xl font-bold'>TAILWINDCSS</h4>
               </div>
 
