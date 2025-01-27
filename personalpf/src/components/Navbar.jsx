@@ -9,7 +9,7 @@ import aLogo from '../images/alogo.png'
 const Navbar = () => {
 
     return (
-        <div className='bg-black max-w-full container text-gray-300 mx-auto flex items-center justify-between px-8 py-4'>
+        <div className='bg-gray-900 max-w-full container text-gray-300 mx-auto flex items-center justify-between px-8 py-4'>
 
             <div className="flex text-2xl font-bold font-[font3]">
                 <h2 className='text-gray-500 font-[robboto]'>RIZWAN ALI</h2>
@@ -20,7 +20,7 @@ const Navbar = () => {
 
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
-                <Link to='/portfolio'>Portfolio</Link>
+                <Link to='/portfolio'>RESUME</Link>
                 <Link to='/contact'>Contact</Link>
 
 

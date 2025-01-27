@@ -2,7 +2,7 @@ import React from 'react'
 
 const PageBottom = () => {
   return (
-    <div className='bg-black absolute items-end p-4 flex justify-between w-full bottom-0 left-0'>
+    <div className='bg-gray-900 absolute items-end p-4 flex justify-between w-full bottom-0 left-0'>
       <div>
 
         <h3 className='text-xl font-[robboto] text-gray-200'>Follow me:
