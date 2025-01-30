@@ -3,7 +3,7 @@ import hImage from '../images/homeImage2.jpg'
 import { Link } from 'react-router-dom'
 import lImage from '../images/line.png'
 import 'remixicon/fonts/remixicon.css'
-
+import rLogo from '../images/rlogo.png'
 
 const Header = () => {
   return (
@@ -13,7 +13,10 @@ const Header = () => {
         <div className='w-[12vw]'>
 
             <div>
-                <div className='h-[30vh] bg-orange-700'></div>
+                <div className='h-[30vh] bg-gray-600 place-content-center'>
+
+                    <img src={rLogo} alt="" className=' w-full'/>
+                </div>
 
 
                 <div className='h-[70vh] bg-gray-900 flex flex-col space-y-3 pt-2'>
@@ -36,7 +39,7 @@ const Header = () => {
 
                     <div className='flex space-x-2 text-xl pl-8 text-[robboto] text-gray-300'>
                         <i className="ri-mail-star-fill"></i>
-                        <Link to='/portfolio'>RESUME</Link>
+                        <Link to='/resume'>RESUME</Link>
                     </div><div>
                         <img className='h-1 w-48 mt-0' src={lImage} alt="" />
                     </div>
