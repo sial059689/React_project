@@ -28,7 +28,7 @@ const About = () => {
         {/* skills section */}
         <div className='w-1/2'>
           <h1 className='font-[robboto] font-semibold text-gray-300 
-          text-4xl text-center pl-5 pt-14 tracking-widest'>MY SKILLS</h1>
+          text-4xl text-center pl-5 pt-14 tracking-widest'>MY CODING SKILLS</h1>
 
           <div>
 
